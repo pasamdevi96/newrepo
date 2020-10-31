@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8615" started-at="2020-10-28T10:02:58 IST" finished-at="2020-10-28T10:03:06 IST">
+  <suite name="Default suite" duration-ms="76" started-at="2020-10-31T16:02:49 IST" finished-at="2020-10-31T16:02:49 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8615" started-at="2020-10-28T10:02:58 IST" finished-at="2020-10-28T10:03:06 IST">
-      <class name="gitproject.JavaTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:gitproject.JavaTest@1efed156]" name="setUp" duration-ms="8530" started-at="2020-10-28T10:02:58 IST" finished-at="2020-10-28T10:03:06 IST">
+    <test name="Default test" duration-ms="76" started-at="2020-10-31T16:02:49 IST" finished-at="2020-10-31T16:02:49 IST">
+      <class name="gitproject.Testcases">
+        <test-method status="PASS" signature="negativeData()[pri:0, instance:gitproject.Testcases@6321e813]" name="negativeData" duration-ms="14" started-at="2020-10-31T16:02:49 IST" finished-at="2020-10-31T16:02:49 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-      </class> <!-- gitproject.JavaTest -->
+        </test-method> <!-- negativeData -->
+        <test-method status="PASS" signature="positiveData()[pri:0, instance:gitproject.Testcases@6321e813]" name="positiveData" duration-ms="1" started-at="2020-10-31T16:02:49 IST" finished-at="2020-10-31T16:02:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveData -->
+      </class> <!-- gitproject.Testcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
